@@ -47,7 +47,7 @@ void printout(int M[][10], int cnt)
             cout << setw(5) << M[i][j];
         cout << endl;
     }
-    cout << "Total found cross "
+    cout << "Total found cross " << cnt << endl;
 }
 
 
